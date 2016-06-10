@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.anenn.flowlikeview.MainActivity">
+
+    <com.anenn.flowlikeviewlib.FlowLikeView
+        android:id="@+id/flowLikeView"
+        android:layout_width="75dp"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:includeFontPadding="false"
+            android:onClick="addLikeView"
+            android:text="Like"
+            android:textColor="#0099cc"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </com.anenn.flowlikeviewlib.FlowLikeView>
+
+</LinearLayout>
